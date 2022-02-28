@@ -1,4 +1,5 @@
 import React from "react";
+import lapto from "../Assets/images/about.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -16,11 +17,7 @@ function About() {
             <div className="hero-body">
               <div className="columns pt-6 mobile-about">
                 <div className="column is-5 is-11-mobile">
-                  <img
-                    src={require("../Assets/images/pic1.jpg").default}
-                    alt=""
-                    width="600"
-                  />
+                <img src={lapto} alt="about" className="img-fluid" />
                 </div>
                 <div className="column is-1"></div>
                 <div className="column is-6 is-11-mobile">
