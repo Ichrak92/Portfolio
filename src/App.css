@@ -136,3 +136,43 @@ nav{
     margin-left: 6rem!important;
   }
 }
+.title1{
+  color: black;
+  background-color: yellow;
+  width: 90px;
+  height: 55px;
+}
+.title5{
+  color: #2c7cdd;
+  width: 90px;
+  height: 55px;
+}
+.title3{
+  color: red;
+  width: 90px;
+  height: 55px;
+}
+.title4{
+  color: green;
+  width: 90px;
+  height: 55px;
+}
+.title5{
+  width: 90px;
+  height: 55px;
+}
+#ichrak{
+  width: 90px;
+  height: 55px;
+}
+.title6{
+  color:white;
+  width: 90px;
+  height: 55px;
+}
+#icons:hover{
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(221, 10, 10, 0.883) !important;
+}
+

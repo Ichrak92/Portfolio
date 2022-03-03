@@ -17,7 +17,7 @@ function Navbar() {
               className="has-text-weight-bold logo-txt navelement is-size-4 is-size-6-mobile pl-6 ml-4"
               style={{ color: "white" }}
             >
-              Shinelle
+              Ichrak
             </h3>
           </div>
 
@@ -72,6 +72,16 @@ function Navbar() {
               smooth={true}
             >
               Skills
+            </Link>
+            <Link
+              to="tools"
+              className="navbar-item navelement is-size-5 "
+              activeClassName="selectedLink"
+              style={{ color: "white" }}
+              spy={true}
+              smooth={true}
+            >
+              Tools
             </Link>
           </div>
           <div className="navbar-end"></div>
