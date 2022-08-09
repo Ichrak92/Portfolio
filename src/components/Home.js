@@ -1,5 +1,5 @@
 import React from "react";
-import dev from "../Assets/images/img1.png";
+import dev from "../Assets/images/dev.gif";
 import { Link } from "react-scroll";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,7 +22,7 @@ function Home() {
                   className="is-size-4 is-size-6-mobile"
                   style={{ color: "white" }}
                 >
-                  Hi!
+                  Hi There!👩
                 </h3>
                 <p
                   className="is-size-2-desktop has-text-weight-bold is-size-4-mobile"
@@ -56,7 +56,7 @@ function Home() {
                 data-aos-duration="1000"
               >
                 
-                   <img src={dev} alt="about" className="img-fluid" />
+                   <img src={dev} alt="about" className="gif" />
                
               </div>
             </div>

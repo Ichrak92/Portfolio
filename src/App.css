@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
+
 nav{
   background-color: #202024!important;
 }
@@ -158,6 +159,7 @@ nav{
   color: green;
   width: 90px;
   height: 55px;
+  display: flex;
 }
 .title5{
   width: 90px;
@@ -214,16 +216,19 @@ nav{
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
-.social-icons {
+.social-icons1 {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
   /* padding: 0 !important; */
   display: inline;
   justify-content: space-between;
-  padding: 0px 30px 38px;
-  padding-left: 0.5px;
-
-  
+  /* padding: 0px 30px 38px; */
+  margin: auto;
+ 
+ 
+}
+#social{
+  text-align: center;
 }
 
 .blockquote-footer {
@@ -234,4 +239,20 @@ nav{
 }
 .images{
   width: 350px;
+} 
+
+.gif{
+  margin-top: 75px;
+}
+.find{
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.red{
+  color: #f87979 !important
+}
+.strong{
+  margin-left: 520px;
 }

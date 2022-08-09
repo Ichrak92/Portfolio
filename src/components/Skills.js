@@ -5,6 +5,11 @@ import {
   DiReact,
   DiNodejs,
 } from "react-icons/di";
+import {
+  SiVisualstudio,
+  SiGithub,
+  SiPostman,
+} from "react-icons/si";
 import {SiHtml5, SiCss3 } from "react-icons/si";
 
 function Skills() {
@@ -25,8 +30,8 @@ function Skills() {
                   Skills
                 </h3>
                 <p class="is-size-5"style={{ color: "white" }}>
-                 I first started my coding journey with HTML and CSS . Then, I moved on to learn javascript. I began with React and Node js, and Angular.
-                 {/* However, I currently use HTML, CSS, javascript, React and Bulma Css only. */}
+                 I first started my coding journey with HTML and CSS . Then, I moved on to learn javascript. I began with React js, Node js, and Angular.
+                 
                 </p>
               </div>
 
@@ -78,7 +83,7 @@ function Skills() {
                       <DiNodejs className="title4"/>
                     </p>
                   </article>
-                </div>   
+                </div>    
           </div>
         </div>
       </div>

@@ -31,19 +31,15 @@ function About() {
                     className="is-size-5 is-size-6-mobile pt-1"
                     style={{ color: "white" }}
                   >
-                    I'm Ichrak Ben Asker. I am currently a first year
-                    student at the University of Ghana majoring in IT and a junior web front-end developer at Rixrod. I'm
-                    on a journey to learn about new technologies and implement them to create solutions.
+              
+                    I'm Ichrak Ben Asker 👩.
+                    <br/> 
+                    A passionate Full Stack JS Developer 🚀.
+                    <br/> 
+                    I am a passionate and hardworking person,i am an autonomous learner so i am always growing.
+                    My field of Interest's are building apps and apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks.
                   </p>
                  
-                  <p
-                    className="is-size-5 pt-5 is-size-6-mobile"
-                    style={{ color: "white" }}
-                  >
-                    I started coding in 2020 and since then, I've been
-                    passionate about it. I'm currently focusing on front-end web
-                    development.
-                  </p>
                   <p className="pt-6 ">
                     <button className="button is-size-5-desktop">
                       <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
