@@ -6,7 +6,7 @@ import Home from './components/Home';
 import './App.css';
 import Skills from './components/Skills';
 import Tools from './components/Tools';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Projects/> 
       <Skills/>
       <Tools/>
+      <Footer/>
     </div>
   );
 }
