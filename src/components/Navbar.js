@@ -17,7 +17,7 @@ function Navbar() {
               className="has-text-weight-bold logo-txt navelement is-size-4 is-size-6-mobile pl-6 ml-4"
               style={{ color: "white" }}
             >
-              Ichrak
+              
             </h3>
           </div>
 
