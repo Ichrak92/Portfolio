@@ -30,7 +30,7 @@ function Home() {
                 >
                   {" "}
                   I'm{" "}
-                  <span style={{ color: "rgb(108 99 255)" }}>
+                  <span style={{ color: "rgba(105, 47, 47, 0.883)" }}>
                     Ichrak Ben Asker.
                   </span>
                 </p>
@@ -42,7 +42,7 @@ function Home() {
                 </p>
                 <div className="pt-5">
                   <Link to="about" spy={true} smooth={true}>
-                    <button className="button is-size-5 is-size-7-mobile">
+                    <button id="btn" className="button is-size-5 is-size-7-mobile">
                       Know more
                     </button>
                   </Link>

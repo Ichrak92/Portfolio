@@ -36,11 +36,11 @@ function About() {
                     <br/> 
                     A passionate Full Stack JS Developer 🚀.
                     <br/> 
-                    I am a passionate and hardworking person,i am an autonomous learner so i am always growing.
+                    I am a passionate and hardworking person,I am an autonomous learner so I am always growing.
                     My field of Interest's are building apps and apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks.
                   </p>
-                 
-                  <p className="pt-6 ">
+                 <br/>
+                 <p className="pt-6 ">
                     <button className="button is-size-5-desktop">
                       <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                       <a
@@ -52,7 +52,19 @@ function About() {
                         <span className="pl-3">LinkedIn</span>
                       </a>
                     </button>
-                  </p>
+                    </p>
+                  {/* <p >
+                    <button className="button">
+                      <FontAwesomeIcon className="link" icon={faLinkedin}></FontAwesomeIcon>
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/ben-asker-ichrak/"
+                        style={{ color: "white" }}
+                      >
+                        {" "}
+                      </a>
+                    </button>
+                  </p> */}
                 </div>
               </div>
             </div>

@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-scroll";
 import MobileNav from "./MobileNav";
+import {
+  AiOutlineHome,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
+  GiSkills
+} from "react-icons/ai";
 
 function Navbar() {
   return (
@@ -37,10 +43,9 @@ function Navbar() {
               style={{ color: "white" }}
               spy={true}
               smooth={true}
-            >
+            ><AiOutlineHome style={{ marginBottom: "2px" }} />
               Home
             </Link>
-
             <Link
               to="about"
               className="navbar-item navelement is-size-5 "
@@ -48,7 +53,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               style={{ color: "white" }}
-            >
+            ><AiOutlineUser style={{ marginBottom: "2px" }} />
               About Me
             </Link>
 
@@ -59,7 +64,9 @@ function Navbar() {
               style={{ color: "white" }}
               spy={true}
               smooth={true}
-            >
+            ><AiOutlineFundProjectionScreen
+            style={{ marginBottom: "2px" }}
+          />{" "}
               Projects
             </Link>
 
@@ -73,16 +80,7 @@ function Navbar() {
             >
               Skills
             </Link>
-            <Link
-              to="tools"
-              className="navbar-item navelement is-size-5 "
-              activeClassName="selectedLink"
-              style={{ color: "white" }}
-              spy={true}
-              smooth={true}
-            >
-              Tools
-            </Link>
+          
           </div>
           <div className="navbar-end"></div>
         </div>

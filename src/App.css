@@ -3,13 +3,13 @@
 
 
 nav{
-  background-color: #202024!important;
+  background-color: rgba(105, 47, 47, 0.883)!important;
 }
 .navelement:hover{
    color: rgb(70 110 182)!important;
    background-color: #202024!important;
-}
-.nav-item:hover{
+} 
+ .nav-item:hover{
   background-color: #202024!important;
 }
 .hamburger{
@@ -59,14 +59,16 @@ nav{
   color: white!important;
 }
 .button{
-  background-color: rgb(108 99 255);
+  background-color: rgba(105, 47, 47, 0.883);
   color: white;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 75px;
+  width: 150px;
 }
-.button:hover{
-  background-color: #2c7cdd;
-  color: white!important;
+
+.link{
+  height: 30px;
+  width: 450px;
 }
 .home-img{
   padding-left:74px;
@@ -255,4 +257,7 @@ nav{
 }
 .strong{
   margin-left: 520px;
+}
+#btn{
+  background-color: rgba(105, 47, 47, 0.883);
 }
