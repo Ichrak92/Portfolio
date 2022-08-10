@@ -48,7 +48,7 @@ function Projects() {
                   <div className="content">
                   <img className="images" src={caryaah} alt="car" />
                     <p>
-                    Renting a car never been easier with Car Yeah with the click of a button you can choose a car from the already list of post cards indicated cars available in the date you already put and payment online with full safety transaction that Car Yaah Team assures.
+                    Renting a car never been easier with CarYaah with the click of a button you can choose a car from the already list of post cards indicated cars available in the date you already put and payment online with full safety transaction that Car Yaah Team assures.
                     <br/>
                     
                     </p>
